@@ -4,11 +4,14 @@ python:
 - '2.7'
 - '3.3'
 - '3.4'
+env:
+- secure: d5ASfNuWgWGAJvUaZmth1ARRRUTfa8L94GMOVM9HZ+xDdQUTPSpmJ7EPQCkCI9fhN2Pgp8rvakR1vgvje+B1CBy8oQcBuNZe0awoFO/q4QenT3p5c3uK1HJDhcT/sBUWP5xhCZyAfSZANdtNYh9UjP4a1Blf05spvuPfya/Qhgc=
+
 install:
 - easy_install -U pip
 - pip install pytest>=2.6.4 pytest-pep8 pytest-cov coveralls
 script:
-- py.test --pep8 --cov ./src --cov-config=.coveragerc
+- py.test --pep8 --cov ./src --cov-config=.coveragerc src/camdict/test.py
 after_success:
 - coveralls
 notifications:

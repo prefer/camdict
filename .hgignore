@@ -24,3 +24,5 @@ glob:tests/objectpack_demo/*.sqlt
 \.sass-cache
 glob:src/barsup_demo/static/barsup/ext/ext-*
 glob:.cache
+glob:.coverage
+glob:*.egg-info

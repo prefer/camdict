@@ -9,11 +9,11 @@ import exceptions as exc
 from api import API
 
 
-assert os.environ['access-key']
+assert os.environ['ACCESS_KEY']
 
 api = API(
     base_url='https://dictionary.cambridge.org/api/v1',
-    access_key=os.environ['access-key'],
+    access_key=os.environ['ACCESS_KEY'],
     response_format='json'
 )
 
