@@ -42,7 +42,6 @@ class API:
         """
         return self._get(self.urls['dictionaries'])
 
-
     def dictionary(self, code):
         """
         http://dictionary-api.cambridge.org/index.php/help/specification#getDictionary
