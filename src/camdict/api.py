@@ -2,7 +2,7 @@
 
 import requests
 
-import exceptions as exc
+import camdict.exceptions as exc
 
 
 class API:

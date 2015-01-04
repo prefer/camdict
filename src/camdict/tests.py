@@ -2,9 +2,10 @@
 
 import os
 import pytest
+
 from camdict.util import parse
 
-import exceptions as exc
+import camdict.exceptions as exc
 
 from api import API
 
