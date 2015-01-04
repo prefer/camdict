@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name="camdict",
-    version="0.1.0",
+    version="0.1.1",
     license='MIT',
     description=read('DESCRIPTION'),
     author="Telepenin Nikolay",
