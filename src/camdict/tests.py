@@ -7,7 +7,7 @@ from camdict.util import parse
 
 import camdict.exceptions as exc
 
-from api import API
+from camdict.api import API
 
 
 assert os.environ['ACCESS_KEY']
